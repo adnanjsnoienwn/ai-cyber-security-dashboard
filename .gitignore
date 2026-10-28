@@ -1,0 +1,23 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.env
+.env.*
+!.env.example
+
+# Databases and backups
+*.db
+*.sqlite
+*.sqlite3
+*.bak
+*.zip
+
+# Datasets and generated files
+data/
+reports/
+models/
+
+# Other
+.DS_Store
+Thumbs.db
